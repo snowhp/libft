@@ -25,7 +25,7 @@ static int	ft_wcount(const char *str, char c)
 	{
 		if (str[i] != c && registc)
 		{
-			count += 1;
+			count++;
 			registc = 0;
 		}
 		else if (registc == 0 && str[i] == c)
@@ -68,9 +68,9 @@ char	**ft_split(char const *s, char c)
 	while (i < wcount)
 	{
 		while (*s != '\0' && *s == c)
-			s += 1;
+			s++;
 		result[i] = ft_word(s, c);
-		s = s + ft_strlen(result[i++]);
+		s += ft_strlen(result[i++]);
 	}
 	result[i] = NULL;
 	return (result);
