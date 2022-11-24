@@ -9,10 +9,10 @@ You should use this github repo to help you at your projects and to improve your
 
  
  
- Before submiting make sure:
+ Before submitting make sure:
  =============
 
-- [x] Norm errors and forbiden functions
+- [x] Norm errors and forbidden functions
 
 - [x] Use different types of tester [Libft Unit Test](https://github.com/alelievr/libft-unit-test),   [War Machine](https://github.com/topics/libft-war-machine) and your own test's / tester .
 
@@ -23,3 +23,4 @@ You should use this github repo to help you at your projects and to improve your
 - [x] Understand the functions and their behavior 
 
 - [x] For bonus make sure you understand structures, node and their use. 
+
