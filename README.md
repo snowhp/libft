@@ -24,3 +24,4 @@ You should use this github repo to help you at your projects and to improve your
 
 - [x] For bonus make sure you understand structures, node and their use. 
 
+- [x] Check for memory leaks. 
