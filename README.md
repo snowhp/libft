@@ -25,3 +25,9 @@ You should use this github repo to help you at your projects and to improve your
 - [x] For bonus make sure you understand structures, node and their use. 
 
 - [x] Check for memory leaks. 
+
+# Submissions
+
+1st | 0/100   %| Makefile still had main.c on sources files.
+2nd | 84/100  %| ft_bzero was not respecting the size sent.
+3rd | 125/100 %| All functions + bonus passed all the tests.
