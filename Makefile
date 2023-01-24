@@ -49,6 +49,7 @@ OBJS = $(SRCS:.c=.o)
 BNS_OBJS = $(BNS_SRCS:%.c=%.o)
 
 NAME = libft.a
+NAMEBONUS = libft.a
 FLAGS = -Wall -Wextra -Werror
 CC = cc
 LIBC = ar rc
@@ -59,8 +60,10 @@ all: $(NAME)
 $(NAME): $(OBJS)																	
 	$(LIBC) $(NAME) $(OBJS)
 
-bonus: $(BNS_OBJS) $(OBJS)
+$(NAMEBONUS) : $(BNS_OBJS) $(OBJS)
 	$(LIBC) $(NAME) $(BNS_OBJS) $(OBJS)
+
+bonus: $(NAMEBONUS)
 
 clean:
 	$(RM) $(OBJS) $(BNS_OBJS)
